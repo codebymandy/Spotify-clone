@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpotifyClone - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+
+  <body>
+    <div class="contianer flex bg-black">
+      <div class="leftside">
+
+         <div class="close">
+            <img class=" imgclose invert" src="close.svg" alt="">
+         </div>
+        <div class="home bg-grey m-1 rounded p-1">
+          <div class="log">
+            <img class="invert" src="logo.svg" alt="logo" />
+          </div>
+          <ul>
+            <li><img class="invert" src="home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="searrch.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+        <div class="labrary bg-grey m-1 rounded p-1">
+          <div class="labriray">
+            <div class="heading">
+              <img class="invert" src="playlist.svg" alt="playlist" />
+              <h3>Your Library</h3>
+            </div>
+
+            <div class="songlist">
+              <ul>
+                <!-- <li>
+                                      <img class="invert" src="music.svg" alt="msu">
+
+                                      <div class="songname">
+                                        <div>song name</div>
+                                        <dir>Artist</dir>
+                                      </div>
+
+                                      <div class="playnow">
+                                         <span>play now</span>
+                                         <img class="invert" src="play.svg" alt="">
+                                      </div>
+
+                               </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rightside bg-grey rounded">
+        <div class="header">
+          <div class="nav">
+            <div class="humbugercontiner">
+              <img class="invert humbuger" src="humburger.svg" alt="" />
+              <svg
+                width="24px"
+                height="24px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18"
+                  stroke="#ffff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <svg
+                width="24px"
+                height="24px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18"
+                  stroke="#ffff"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </div>
+
+          <div class="buttons">
+            <button class="singup-btn">Sing up</button>
+            <button class="login-btn">Log in</button>
+          </div>
+        </div>
+
+        <div class="spotifyplaylist">
+          <h2>Spotify Playlists</h2>
+
+          <div class="cardcontainer">
+            <!-- //! First card -->
+            <!--             
+            <div data-folder="ncs" class="card">
+              <div class="palybtn">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="background-color: #1ed760; border-radius: 50%"
+                >
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    fill="black"
+                    stroke="#141B34"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e024a60872ae145776164540a7f" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt Yn2Ei5QZn19gria6LjZj">
+              <h2>Heeriya </h2>
+              <p>(feat.Arijit Singh 2023.jasleen Royal,Arijit sing</p>
+            </div> -->
+
+            <!-- //! second card -->
+            <!--              
+            <div data-folder="cs" class="card">
+              <div class="palybtn">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="background-color: #1ed760; border-radius: 50%"
+                >
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    fill="black"
+                    stroke="#141B34"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <img
+                src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d"
+                alt=""
+              />
+              <h2>Happy Hits!</h2>
+              <p>Hits to boots your mood and fill you with happniess!</p>
+            </div> -->
+
+            <!-- //! Third card -->
+            <!-- 
+            <div data-folder="ksong" class="card">
+              <div class="palybtn">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="background-color: #1ed760; border-radius: 50%"
+                >
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    fill="black"
+                    stroke="#141B34"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <img aria-hidden="false" draggable="false" loading="lazy" src="https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO3Vbkk0-default.jpg" data-testid="card-image" alt="" class="mMx2LUixlnN_Fu45JpFB SKJSok3LfyedjZjujmFt yOKoknIYYzAE90pe7_SE Yn2Ei5QZn19gria6LjZj">
+              <h2>Bachke...</h2>
+              <p>(feat. Yarah)Karan Aujla</p>
+            </div> -->
+
+            <!-- //! four card -->
+            <!--             
+            <div data-folder="DD" class="card">
+              <div class="palybtn">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="background-color: #1ed760; border-radius: 50%"
+                >
+                  <path
+                    d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                    fill="black"
+                    stroke="#141B34"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+
+              <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e0274a99276badeec2675a9eaec" alt="Hass Hass" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" srcset="https://i.scdn.co/image/ab67616d00001e0274a99276badeec2675a9eaec 150w, https://i.scdn.co/image/ab67616d00001e0274a99276badeec2675a9eaec 300w, https://i.scdn.co/image/ab67616d0000b27374a99276badeec2675a9eaec 320w, https://i.scdn.co/image/ab67616d0000b27374a99276badeec2675a9eaec 640w" sizes="(min-width: 1280px) 232px, 192px">
+              <h2>Hass Hass...</h2>
+              <p>Diljit Dosanjh</p>
+            </div> -->
+
+            <!-- //! five card -->
+            <!-- 
+         <div data-folder="DD" class="card">
+          <div class="palybtn">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              style="background-color: #1ed760; border-radius: 50%"
+            >
+              <path
+                d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"
+                fill="black"
+                stroke="#141B34"
+                stroke-width="1.5"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+
+          <img aria-hidden="false" draggable="false" loading="lazy" src="https://i.scdn.co/image/ab67616d00001e02c7b32b2ebd1ed948c9e7e5c5" alt="Bhediya (Original Motion Picture Soundtrack)" class="mMx2LUixlnN_Fu45JpFB CmkY1Ag0tJDfnFXbGgju _EShSNaBK1wUIaZQFJJQ Yn2Ei5QZn19gria6LjZj" srcset="https://i.scdn.co/image/ab67616d00001e02c7b32b2ebd1ed948c9e7e5c5 150w, https://i.scdn.co/image/ab67616d00001e02c7b32b2ebd1ed948c9e7e5c5 300w, https://i.scdn.co/image/ab67616d0000b273c7b32b2ebd1ed948c9e7e5c5 320w, https://i.scdn.co/image/ab67616d0000b273c7b32b2ebd1ed948c9e7e5c5 640w" sizes="(min-width: 1280px) 232px, 192px">
+          <h2>Apna Bana Le</h2>
+          <p>Arijit singh</p>
+        </div> -->
+
+            <!-- //!playbar -->
+
+            <div class="playbar">
+              <div class="seekbar">
+                <div class="circle"></div>
+              </div>
+
+              <div class="control">
+                <div class="songinfo">
+
+                </div>
+
+                <div class="songbutton">
+                  <img id="privous" src="privousplay.svg" alt="" />
+                  <img id="Play" src="play.svg" alt="" />
+                  <img id="next" src="next.svg" alt="" />
+                </div>
+
+                <div class="voluembtn">
+                  
+                  <div class="songtime"></div>
+
+                  <div class="rangebtn">
+                    <img src="valume.svg" alt="" />
+
+                    <div class="range">
+                      <input type="range" name="valume" id="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
